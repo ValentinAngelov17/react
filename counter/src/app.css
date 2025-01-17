@@ -1,0 +1,22 @@
+.card {
+    font-size: 28px;
+    color: white;
+}
+div {
+    height: 20%;
+}
+
+.buttons  button{
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    background-color: darkgreen;
+}
