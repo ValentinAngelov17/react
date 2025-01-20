@@ -5,7 +5,9 @@ import { useState } from 'react'
 function App() {
   const [count, setCount] = useState(0)
   let increment = () => {
-    setCount((count) => count + 1)
+    setCount(count + 1)
+    console.log(count)
+    
   }
   let decrement = () => {
     setCount((count) => count - 1)
